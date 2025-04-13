@@ -1,3 +1,13 @@
 <div>
-  <h1>Welcome to the Angular App!</h1>
-</div>>
+  <h1>Question Bank!</h1>
+</div>
+
+<button
+  [useExistingCss]="true"
+	printSectionId="print-section"
+	ngxPrint>print</button>
+
+<div #print_container id="print-section" class="print-container">
+  <div #print_question_container class="questions-container"></div>
+  <div #print_answer_container class="answers-container"></div>
+</div>
