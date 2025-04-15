@@ -1,6 +1,6 @@
 {
   "name": "questionbank",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A template project by using Angular 19",
   "repository": "https://github.com/alvachien/questionbank",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "@angular/platform-browser": "^19.1.6",
     "@angular/platform-browser-dynamic": "^19.1.6",
     "@angular/router": "^19.1.6",
+    "katex": "^0.16.22",
     "ngx-print": "^2.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

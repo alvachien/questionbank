@@ -38,12 +38,16 @@
               }
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "node_modules/katex/dist/katex.min.css"
             ],
             "stylePreprocessorOptions": {
               "includePaths": ["src/styles/themes"]
             },
-            "scripts": []
+            "scripts": [
+              "node_modules/katex/dist/katex.min.js",
+              "node_modules/katex/dist/contrib/auto-render.min.js"
+            ]
           },
           "configurations": {
             "production": {

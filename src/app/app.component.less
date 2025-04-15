@@ -15,9 +15,8 @@
   align-items: center; /* 水平居中 */
   height: 100vh; /* 确保容器占据整个视口高度 */
 
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 780px;
+  padding: 10px;
   font-family: 'Microsoft YaHei', sans-serif;
 }
 
@@ -26,10 +25,9 @@
   flex-direction: column;
   height: 100vh; /* 确保容器占据整个视口高度 */
 
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 780px;
+  width: 100vw;
+  padding: 2px;
   font-family: 'Microsoft YaHei', sans-serif;
 }
 
@@ -39,21 +37,20 @@
   height: 100vh; /* 确保容器占据整个视口高度 */
 
   max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
+  width: 100vw;
+  padding: 2px;
   font-family: 'Microsoft YaHei', sans-serif;
 }
 
 .question {
   margin-bottom: 4px;
-  page-break-inside: avoid;
+  page-break-inside: auto;
 }
 
 .question-title {
   font-size: 16px;
-  margin-bottom: 10px;
-  font-weight: bold;
+  // margin-bottom: 10px;
+  // font-weight: bold;
 }
 
 .option-list {
@@ -80,6 +77,13 @@
   border-bottom: 1px solid #000;
   padding: 2px 5px;
   background: transparent;
+  height: 28px;
+}
+
+.print-multiple-input {
+  line-height: 28px;
+  white-space: pre-wrap;
+  page-break-inside: auto;  
 }
 
 .essay-grid {
